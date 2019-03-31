@@ -6,6 +6,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 import { TabsPage } from '../pages/tabs/tabs';
 import { LoginPage } from '../pages/login/login';
 import { SmartAudioProvider } from '../providers/smart-audio/smart-audio';
+import { HomePage } from '../pages/home/home';
 
 
 

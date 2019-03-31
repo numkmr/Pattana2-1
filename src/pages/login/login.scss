@@ -5,6 +5,14 @@ page-login {
         background-size: cover;
         
     }
+
+    img{
+
+        height: 80px !important;
+        width: auto !important;
+        align-items: center;
+        margin-left: 140px;
+    }
     
     .item-inner 
     {
@@ -56,19 +64,22 @@ page-login {
 
     .Com2
     {
-        
+        padding-top: 70%;
         position: relative;
         text-align: center;
+        
     
         
-
-        border-top-right-radius: 5px !important;
-        border-top-left-radius: 5px !important;
+    }
+    .white{
+         
+        background-color: #ffffff;
+        border-top-right-radius: 30px !important;
+        border-top-left-radius: 30px !important;
         border-bottom-right-radius: 5px !important;
         border-bottom-left-radius: 5px !important;
 
     
-      
     }
     h1{
        
@@ -82,7 +93,7 @@ page-login {
        
         font-size: 10px;
        
-        color: #ffffff;
+        color: #f78710;
    }
 
    img{
@@ -143,12 +154,15 @@ page-login {
         transition: all 0.3s ease-in-out;
         width: 40%;
         height: 45px;
-        color: #1a62ce;
+        color: #f78710;
 
         border-top-right-radius: 20px !important;
         border-top-left-radius: 20px !important;
         border-bottom-right-radius: 20px !important;
         border-bottom-left-radius: 20px !important;
+
+        -webkit-box-shadow: 0 0px 30px 0 rgba(0, 0, 0, 0.123);
+        box-shadow: 0 0px 30px 0  rgba(0, 0, 0, 0.185);
         
     }
     

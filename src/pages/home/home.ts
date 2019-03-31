@@ -243,7 +243,7 @@ export class HomePage {
   //End of countdown timer
 
   readytoquiz() {
-    this.navCtrl.setRoot(QuizPage, { "Stu_ID": this.Stu_ID, "Today": this.Today }, { animate: true, direction: 'forward' });
+    this.navCtrl.push(QuizPage, { "Stu_ID": this.Stu_ID, "Today": this.Today });
     this.Notification();
 
   }

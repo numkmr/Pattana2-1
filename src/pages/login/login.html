@@ -5,19 +5,20 @@
   Ionic pages and navigation.
 -->
 
-<ion-content  style="background-image: url('assets/imgs/Login1.png')">
+<ion-content  style="background-image: url('assets/imgs/Login3.png')">
+  
+  <img src="assets/imgs/Logo2.png">
 
   
-  
   <div  class="Com2" ion-fixed> 
-<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> 
+
 
       <p *ngIf="submitAttempt" style="color: #ea6153;">Please fill out all details accurately.</p>
 
       <ion-list class="list" no-lines>
 
         <form [formGroup]="slideOneForm">
-
+          
           <ion-item>
             <ion-label floating>Username</ion-label>
             <ion-input formControlName="userName" type="text" [(ngModel)]="username"
@@ -43,12 +44,11 @@
         
       </ion-list>
 
-    <button color="blue" ion-button class="login" (click)='Login();ShowNoti();clickSound();'> LOGIN </button> <br>
+    <button color="orange" ion-button class="login" (click)='Login();ShowNoti();clickSound();'> LOGIN </button> <br>
     <h2> If you don't have any account </h2> 
     <button ion-button color="light" ion-button class="signup" (click)='register();clickSound();'> REGISTER </button> <br><br>
   
   </div>
-
 
 
 
