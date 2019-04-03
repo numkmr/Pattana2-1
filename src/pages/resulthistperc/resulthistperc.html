@@ -6,18 +6,21 @@
 -->
 
 <ion-header>
+    <ion-navbar>
+      <ion-title>
+        <h4>Course</h4> 
+      </ion-title>
+  
+
+    </ion-navbar>
+  </ion-header>
+  
+<ion-content style="background-image: url('assets/imgs/grey.png')">
   <br>
-  <div class="storage">
-    Lesson
-  </div>
 
-</ion-header>
+<div class="lesson" ngSwitch="{{LessLength}}">
 
-
-<ion-content style="background-image: url('assets/imgs/Plain1.png')">
-  <br>
-  <div class="lesson" ngSwitch="{{LessLength}}">
-
+    <br>
     <div *ngSwitchCase="'1'">
       <div class="progress-wrapper">
         <h3>{{Less_Know[0]}}</h3>

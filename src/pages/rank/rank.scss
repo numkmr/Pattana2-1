@@ -17,16 +17,12 @@ page-rank {
         
     }
     .score
-    {   height:70px;
-        -webkit-box-shadow: 0 10px 30px 0 rgb(255, 255, 255);
-        box-shadow: 0 10px 30px 0  rgba(0, 0, 0, 0.247);
+    {   height: 60px;
+         width: 100px;
+         margin-left: 35%;
         position: relative;
         text-align: center;
-        background-color: #0068B7;
-        border-top-right-radius: 30px !important;
-        border-top-left-radius: 30px !important;
-        border-bottom-left-radius: 30px !important; 
-        border-bottom-right-radius: 30px !important;
+        
 
         
     }
@@ -37,20 +33,29 @@ page-rank {
     }
     h2{
         font-size: 20px;
-        color: #ffffff;
+        color: #f78710;
     }
     h3{
-        font-size: 50px;
-        color: #ffffff;
+        font-size: 42px;
+        color: #2d56df;
     }
     h4{
-        font-size: 40px;
-        color: #ffffff;
+        font-size: 28px;
+        color: #f78710;
     }
     h5{
-        font-size: 20px !important; 
-        color:  #ffffff !important;
+        font-size: 18px !important; 
+        color:  #f78710 !important;
     }
+    h6{
+      font-size: 42px !important; 
+      color:  #2d56df !important;
+      position: relative;
+        text-align: center
+  }
+  b{
+    color: #3b3b3a;
+  }
     .gotofb
     {
         
@@ -62,17 +67,17 @@ page-rank {
         height: 45px;
         -webkit-box-shadow: 0 10px 30px 0 rgb(255, 255, 255);
         box-shadow: 0 10px 30px 0  rgba(0, 0, 0, 0.247);
-        color: #0068B7  !important;
+        color: #f78710  !important;
         width: 50%;
-        border-top-right-radius: 50px !important;
-        border-top-left-radius: 50px !important;
-        border-bottom-left-radius: 50px !important; 
-        border-bottom-right-radius: 50px !important; 
+        border-top-right-radius: 10px !important;
+        border-top-left-radius: 10px !important;
+        border-bottom-left-radius: 10px !important; 
+        border-bottom-right-radius: 10px !important; 
     }
     .ranking
     {
         font-size: 20px;
-        background-color:#f78710;
+       
         
     }
     .rankscore{
@@ -84,6 +89,29 @@ page-rank {
     {
         background-color:#f78710;
     }
+
+    .GoHome {
+      margin-top: 10px;
+      text-align: center;
+      border: none;
+      padding: 15px 80px;
+      text-decoration: none;
+      display: inline-block;
+      text-transform: uppercase;
+      font-size: 13px;
+      transition: all 0.3s ease-in-out;
+      width: 40%;
+      height: 45px;
+      color: #ffffff;
+
+      border-top-right-radius: 20px !important;
+      border-top-left-radius: 20px !important;
+      border-bottom-right-radius: 20px !important;
+      border-bottom-left-radius: 20px !important;
+
+      -webkit-box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.103);
+      box-shadow: 0 10px 30px 0  rgba(0, 0, 0, 0.103);
+  }
     //Spinner
     .lds-roller {
       display: inline-block;

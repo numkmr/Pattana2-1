@@ -27,11 +27,11 @@ export class ResulthistpercPage {
   max: number = 100;
   stroke: number = 20;
   radius: number = 75;
-  semicircle: boolean = true;
+  semicircle: boolean = false;
   rounded: boolean = true;
   responsive: boolean = false;
   clockwise: boolean = true;
-  color: string = '#45ccce';
+  color: string = '#f78710';
   background: string = '#eaeaea';
   duration: number = 800;
   animation: string = 'linearEase';

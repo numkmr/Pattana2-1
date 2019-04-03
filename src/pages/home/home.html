@@ -1,7 +1,7 @@
 <ion-header>
     <ion-navbar primary>
       <ion-title>
-          <img class="logo"   src="assets/imgs/Logo.png">
+          <img class="logo"   src="assets/imgs/Logo2.png">
         attana
       </ion-title>
   
@@ -16,34 +16,69 @@
     </ion-navbar>
   </ion-header>
 
-<ion-content style="background-image: url('assets/imgs/Home4.png')">
+<ion-content style="background-image: url('assets/imgs/CloudHome.png')">
 
    <div class="course1">
     <h1> Course: Database </h1>
     <h3> Lesson: Data Modeling </h3>
-    <br>
+  
 
     </div>
-    <br><br>
   <ng-container *ngIf="hasFinished==true; then hidbutton; else showbutton" ></ng-container>
   <ng-template #showbutton>
-      <div class="table-a" padding>
+      <div class="table-a">
           <button color="#ff0000" ion-button class="start" (click)='readytoquiz();clickSound();'> START </button><br>    		
       </div>
   </ng-template>
   <ng-template #hidbutton>
-      <div class="table-a" padding>
-          <button color="secondary" ion-button class="start"> START </button><br>
+    <div class="table-a">
+        
+          <button  ion-button class="start"> 
+            <h6>START</h6>
+          </button><br>
+       
+          
       </div>
   </ng-template>
- 
+
+  <br><br>
   
   <div class="avai-font" >
-    <h4>Avaliable in</h4>
+   <h4>Avaliable in</h4>
   </div>
+  <br>
 
+
+  <ion-item class="Time">
+    
+      <h1 text-center> 12:30 pm</h1>
+  </ion-item>
+
+  <div class="CourseTable">
+  
+    <ion-item *ngFor="let element of Ass_Time; let i = index">
+      <!--<ng-container *ngIf="countResult>0; then showClock; else hidClock"></ng-container>
+      <ng-template #showClock>-->
+        <ion-label>
+          Assessment 1 {{Ass_Time[i]}}
+        </ion-label>
+        <ion-item>
+          <h1 text-center>{{displayTime}}</h1>
+        </ion-item>
+      <!--</ng-template>
+      <ng-template #hidClock>
+        <ion-label>
+          Assessment {{i+1}} {{Ass_Time[i]}}
+        </ion-label>
+      </ng-template>-->
+  
+  
+    </ion-item>
+  
+</div>
   
   <ion-item>
+    
     <h1 text-center>{{displayTime}}</h1>
   </ion-item>
 

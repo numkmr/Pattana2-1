@@ -14,6 +14,14 @@ page-resulthistperc {
         border-bottom: 0px;
     }
 
+    h1
+    {
+        font-size: 20px;
+        color: #f78710;
+        position: relative;
+          text-align: center;
+    }
+
     .storage{
         margin-top: 10px;
         text-align: center;
@@ -28,7 +36,10 @@ page-resulthistperc {
         color: #ffffff;
     }
 
-
+    .head {
+        font-size: 20px;
+        color: #f78710;
+      }
 
     .progress-warpper{
         margin: 20px auto;
@@ -36,6 +47,7 @@ page-resulthistperc {
         position: relative  !important;
         text-align: center !important;
         z-index: -1;
+        
     }
 
 
@@ -44,25 +56,29 @@ page-resulthistperc {
         font-weight: 100;
         //position: relative  !important;
         text-align: center  !important;
-        top: 50%;
+        top: 20%;
         width: 100%;
     }
 
-    h1{
-        font-size: 20px;
-        color:  #666666;
-        position: relative;
-        text-align: left;
-    }
-
-    h3{
-        font-size: 20px;
+    h4{
+        font-size: 16px;
         color:  #666666;
         position: relative;
         text-align: center;
        
     }
+
+    h3{
+        font-size: 14px;
+        color:  #f78710;
+        position: relative;
+        text-align: center;
+       
+    }
     .lesson{
+        background-color: #ffffff;
+
+        color: #ffffff;
         position: relative;
         text-align: center;
     
@@ -80,6 +96,7 @@ page-resulthistperc {
         margin-right: auto;
         position: relative;
         z-index: 10;
+      
     }
     
    

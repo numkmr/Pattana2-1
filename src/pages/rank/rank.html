@@ -5,17 +5,19 @@
   Ionic pages and navigation.
 -->
 
-<ion-content padding style="background-image: url('assets/imgs/Full1.png')">
+<ion-content padding style="background-image: url('assets/imgs/CloudRank.png')">
 
-
+<br>
   <div class="word">
     <h3>Hoorey! </h3>
   </div>
   <div class="score" padding>
     <h4>{{ScoreCount}} / {{NOOfQues}} </h4>
   </div>
-  <h2 class="yourscore">Your score is</h2>
-  <h2 class="yourscore">{{DecimalSC}}</h2>
+  <h2 class="yourscore">Your score is:  </h2> <h6>{{DecimalSC}}</h6>
+  
+
+
   <ion-card>
 
     <ion-card-header>
@@ -64,7 +66,7 @@
 
   </ion-card>
   <div class="gotofb">
-    <button color="light" ion-button class="Feedback" (click)='clickhome()'> Home </button> <br>
+    <button color="orange" ion-button class="GoHome" (click)='clickhome()'> Home </button> <br>
   </div>
 
 
